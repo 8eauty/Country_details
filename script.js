@@ -40,6 +40,12 @@ searchbtn.addEventListener("click",function(){
         </div>
         <div class="wrapper">
         <div class="data-wrapper">
+        <h4>Country Code:</h4>
+        <span>${data[0].callingCodes[0]}</span>
+        </div>
+        </div>
+        <div class="wrapper">
+        <div class="data-wrapper">
         <h4>Area:</h4>
         <span>${data[0].area}</span>
         </div>
